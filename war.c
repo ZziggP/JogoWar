@@ -60,7 +60,8 @@ int main (){
                         printf("Digite o número de tropas: ");
                         scanf("%d", &mapa[numTerritorios].tropas); // Lê o número de tropas
 
-                        limparBuffer(); // Limpa o buffer de entrada após ler o número de tropas
+                        // Limpa o buffer de entrada após ler o número de tropas
+                        limparBuffer();
                         
                         // Incrementa o número de territórios cadastrados
                         numTerritorios++;
